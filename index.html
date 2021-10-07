@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Link to stylesheet-->
+  <link rel="stylesheet" href="mystyles.css">
+  <title>The Pavillion</title>
+</head>
+<body>
+
+<!--Styling for the header-->
+<div class="h1">
+    <h1>The Pavillion</h1>
+</div>
+
+  <!--Styling class for the paragraph-->
+<div class="info">
+
+  <!--Welcoming paragraph-->
+  <p> We are pleased to offer you the choice of some great productions. <br>
+      Please enter you information below to see what we have in store for you!</p>
+</div>
+
+<!--Styling class for the content boxes-->
+<div class="content">
+
+<!--Link through to perf.php via the superglobal variable GET-->
+<form action="perf.php" method="GET">
+
+  <!--Name label-->
+  <label for="name">Name:*</label><br>
+  <!--Creates a text box with a place holder for name-->
+  <input class="box" type="text" name="person" placeholder="Enter your name" required="required"></p>
+
+  <!--Email label-->
+  <label for="email">Email:*</label><br>
+  <!--Creates a text box with a place holder for email-->
+  <input class="box" type="email" name="email" placeholder="Enter your email" required="required"></p>
+
+</div>
+
+<!--Styling class for the button-->
+<div class="align">
+
+  <!--Submit button-->
+  <button class="btn" name= "submit" type="submit"> See Performances</button>
+
+</form>
+</div>
+</body>
+</html>
